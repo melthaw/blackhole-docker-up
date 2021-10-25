@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+
+  blackhole:
+    container_name: blackhole
+    image: clouthinkin/blackhole
+    ports:
+      - 53:53
+    volumes:
+      - ./safehost:/usr/local/balckhole/safehost

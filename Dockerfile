@@ -1,6 +1,6 @@
 ########## How To Use Docker Image ###############
-##  Image Name: clouthinkin/network
-##  Git link: https://github.com/melthaw/blackhole-docker-up/blob/master/Dockerfile
+##  Image Name: clouthinkin/blackhole
+##  Git link: https://github.com/melthaw/blackhole-docker-up/blob/main/Dockerfile
 ##  Docker hub link: https://hub.docker.com/r/clouthinkin/blackhole/
 ##  Build docker image: docker build --no-cache -f Dockerfile -t clouthinkin/blackhole --rm=true .
 ##  Description: blackhole 1.2.* + jdk8

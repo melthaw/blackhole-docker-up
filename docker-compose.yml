@@ -7,4 +7,4 @@ services:
     ports:
       - 53:53
     volumes:
-      - ./safehost:/usr/local/balckhole/safehost
+      - ./zones:/usr/local/blackhole/config/zones
